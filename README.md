@@ -1,15 +1,21 @@
 # What Drives the Price of a Car?
 
-Notebook Link
-Main analysis notebook: PriceOfCarAnalysis.ipynb
+Notebook Link:
+
 Project Overview
+
 This project investigates what drives used car prices using a large marketplace dataset (initially ~426K listings). The analysis follows the CRISP-DM process:
 
 Business Understanding
+
 Data Understanding & Cleaning
+
 Exploratory Data Analysis (EDA)
+
 Modeling
+
 Evaluation
+
 Findings and Recommendations
 The dealership-focused objective is to identify the strongest predictors of price so inventory sourcing and pricing decisions can be improved.
 
@@ -50,9 +56,11 @@ Both regularized models produced nearly identical performance.
 Test-set evaluation:
 Ridge: R² = 0.4590, MSE = 111,298,551.22
 Lasso: R² = 0.4590, MSE = 111,299,276.56
+
 Interpretation:
 The models explain about 45.9% of observed price variance.
 Performance is moderate: the model captures major pricing structure, but unobserved factors (trim, local demand, accident history detail, options/packages, etc.) likely explain remaining variance.
+
 Coefficient-Based Insights
 Model coefficients were used for directional interpretation of major drivers.
 
