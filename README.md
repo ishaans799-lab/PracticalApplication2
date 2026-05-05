@@ -1,7 +1,7 @@
 # What Drives the Price of a Car?
 
 ## Notebook Link
-
+https://github.com/ishaans799-lab/PracticalApplication2/blob/d29246e150d1ffcf3ed35c5ba02093b35c22060a/PriceOfCar_Analysis.ipynb
 
 ## Project Overview
 This project analyzes used car prices using a large marketplace dataset (~426K listings) following the CRISP-DM process. The goal is to identify key drivers of price to improve dealership inventory and pricing decisions.
